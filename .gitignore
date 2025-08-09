@@ -1,0 +1,58 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and temp files
+*.log
+*.tmp
+tmp/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Coverage and test artifacts
+.coverage*
+htmlcov/
+coverage.xml
+.pytest_cache/
+
+# Type checker caches
+.mypy_cache/
+.pytype/
+
+# Playwright artifacts
+.playwright/
+playwright-report/
+test-results/
+trace.zip
+.trace/
+
+# Browser user data (persistent session)
+.console_browser_userdata/
+
+# Caches
+.cache/
+
+# Environment files
+.env
+.env.*
+
+# Editors/IDEs
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node (in case of mixed repos)
+node_modules/
